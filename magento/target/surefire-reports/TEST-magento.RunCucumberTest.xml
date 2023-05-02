@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="magento.RunCucumberTest" time="102.772" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\JESSICA\eclipse-workspace\magento\target\test-classes;C:\Users\JESSICA\eclipse-workspace\magento\target\classes;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-java\7.10.1\cucumber-java-7.10.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-core\7.10.1\cucumber-core-7.10.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-gherkin\7.10.1\cucumber-gherkin-7.10.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.10.1\cucumber-gherkin-messages-7.10.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\datatable\7.10.1\datatable-7.10.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-plugin\7.10.1\cucumber-plugin-7.10.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\docstring\7.10.1\docstring-7.10.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\html-formatter\20.2.0\html-formatter-20.2.0.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\JESSICA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.10.1\cucumber-junit-platform-engine-7.10.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\JESSICA\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\JESSICA\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-picocontainer\7.10.1\cucumber-picocontainer-7.10.1.jar;C:\Users\JESSICA\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\JESSICA\.m2\repository\org\junit\platform\junit-platform-suite\1.9.1\junit-platform-suite-1.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.1\junit-platform-suite-api-1.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.1\junit-platform-suite-engine-1.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.1\junit-platform-suite-commons-1.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.1\junit-platform-launcher-1.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-java\4.7.2\selenium-java-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-api\4.7.2\selenium-api-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.7.2\selenium-chrome-driver-4.7.2.jar;C:\Users\JESSICA\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\JESSICA\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\JESSICA\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\JESSICA\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\JESSICA\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\JESSICA\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\JESSICA\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\JESSICA\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\JESSICA\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\JESSICA\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.7.2\selenium-chromium-driver-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-json\4.7.2\selenium-json-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.7.2\selenium-devtools-v106-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.7.2\selenium-devtools-v107-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.7.2\selenium-devtools-v108-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.7.2\selenium-devtools-v85-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.7.2\selenium-edge-driver-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.7.2\selenium-firefox-driver-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-http\4.7.2\selenium-http-4.7.2.jar;C:\Users\JESSICA\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.7.2\selenium-ie-driver-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.7.2\selenium-remote-driver-4.7.2.jar;C:\Users\JESSICA\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\JESSICA\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\JESSICA\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\JESSICA\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\JESSICA\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\JESSICA\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\JESSICA\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\JESSICA\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.7.2\selenium-manager-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.7.2\selenium-safari-driver-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-support\4.7.2\selenium-support-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\JESSICA\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\JESSICA\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.20.0\allure-cucumber7-jvm-2.20.0.jar;C:\Users\JESSICA\.m2\repository\io\qameta\allure\allure-java-commons\2.20.0\allure-java-commons-2.20.0.jar;C:\Users\JESSICA\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\JESSICA\.m2\repository\io\qameta\allure\allure-model\2.20.0\allure-model-2.20.0.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\gherkin\25.0.2\gherkin-25.0.2.jar;C:\Users\JESSICA\.m2\repository\org\aeonbits\owner\owner\1.0.12\owner-1.0.12.jar;C:\Users\JESSICA\.m2\repository\io\testsmith\webdriver-event-listeners\0.6\webdriver-event-listeners-0.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="property" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\JESSICA\AppData\Local\Temp\surefire14075377550527856055\surefirebooter-20230501201852030_3.jar C:\Users\JESSICA\AppData\Local\Temp\surefire14075377550527856055 2023-05-01T20-18-51_264-jvmRun1 surefire-20230501201852030_1tmp surefire_0-20230501201852030_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\JESSICA\eclipse-workspace\magento\target\test-classes;C:\Users\JESSICA\eclipse-workspace\magento\target\classes;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-java\7.10.1\cucumber-java-7.10.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-core\7.10.1\cucumber-core-7.10.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-gherkin\7.10.1\cucumber-gherkin-7.10.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.10.1\cucumber-gherkin-messages-7.10.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\datatable\7.10.1\datatable-7.10.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-plugin\7.10.1\cucumber-plugin-7.10.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\docstring\7.10.1\docstring-7.10.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\html-formatter\20.2.0\html-formatter-20.2.0.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\JESSICA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.10.1\cucumber-junit-platform-engine-7.10.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\JESSICA\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\JESSICA\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\cucumber-picocontainer\7.10.1\cucumber-picocontainer-7.10.1.jar;C:\Users\JESSICA\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\JESSICA\.m2\repository\org\junit\platform\junit-platform-suite\1.9.1\junit-platform-suite-1.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.1\junit-platform-suite-api-1.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.1\junit-platform-suite-engine-1.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.1\junit-platform-suite-commons-1.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.1\junit-platform-launcher-1.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\JESSICA\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-java\4.7.2\selenium-java-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-api\4.7.2\selenium-api-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.7.2\selenium-chrome-driver-4.7.2.jar;C:\Users\JESSICA\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\JESSICA\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\JESSICA\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\JESSICA\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\JESSICA\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\JESSICA\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\JESSICA\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\JESSICA\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\JESSICA\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\JESSICA\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.7.2\selenium-chromium-driver-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-json\4.7.2\selenium-json-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.7.2\selenium-devtools-v106-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.7.2\selenium-devtools-v107-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.7.2\selenium-devtools-v108-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.7.2\selenium-devtools-v85-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.7.2\selenium-edge-driver-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.7.2\selenium-firefox-driver-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-http\4.7.2\selenium-http-4.7.2.jar;C:\Users\JESSICA\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.7.2\selenium-ie-driver-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.7.2\selenium-remote-driver-4.7.2.jar;C:\Users\JESSICA\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\JESSICA\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\JESSICA\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\JESSICA\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\JESSICA\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\JESSICA\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\JESSICA\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\JESSICA\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\JESSICA\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\JESSICA\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.7.2\selenium-manager-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.7.2\selenium-safari-driver-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\seleniumhq\selenium\selenium-support\4.7.2\selenium-support-4.7.2.jar;C:\Users\JESSICA\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\JESSICA\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\JESSICA\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.20.0\allure-cucumber7-jvm-2.20.0.jar;C:\Users\JESSICA\.m2\repository\io\qameta\allure\allure-java-commons\2.20.0\allure-java-commons-2.20.0.jar;C:\Users\JESSICA\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\JESSICA\.m2\repository\io\qameta\allure\allure-model\2.20.0\allure-model-2.20.0.jar;C:\Users\JESSICA\.m2\repository\io\cucumber\gherkin\25.0.2\gherkin-25.0.2.jar;C:\Users\JESSICA\.m2\repository\org\aeonbits\owner\owner\1.0.12\owner-1.0.12.jar;C:\Users\JESSICA\.m2\repository\io\testsmith\webdriver-event-listeners\0.6\webdriver-event-listeners-0.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\JESSICA"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\JESSICA\eclipse-workspace\magento"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\JESSICA\AppData\Local\Temp\surefire14075377550527856055\surefirebooter-20230501201852030_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="user.name" value="JESSICA"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\JESSICA\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\JESSICA\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="C:\Users\JESSICA\eclipse-workspace\magento"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin/server;C:/Program Files/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.7.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\apache-maven-3.9.1\bin;C:\Users\JESSICA\AppData\Local\Microsoft\WindowsApps;C:\Users\JESSICA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\JESSICA\AppData\Local\Programs\Python\Python311;C:\Users\JESSICA\AppData\Local\Programs\Python\Python311\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;;C:\Program Files\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="Example #1" classname="Examples" time="34.643">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 44922
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 01, 2023 8:18:58 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 108
+may. 01, 2023 8:19:05 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //span[normalize-space()='Women']}
+may. 01, 2023 8:19:05 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //span[normalize-space()='Women']}
+may. 01, 2023 8:19:05 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //span[normalize-space()='Women']]}
+may. 01, 2023 8:19:06 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //span[normalize-space()='Women']]}
+may. 01, 2023 8:19:07 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //a[contains(text(),'Tops')]}
+may. 01, 2023 8:19:07 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //a[contains(text(),'Tops')]}
+may. 01, 2023 8:19:07 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //a[contains(text(),'Tops')]]}
+may. 01, 2023 8:19:08 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //a[contains(text(),'Tops')]]}
+may. 01, 2023 8:19:08 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[normalize-space()='Category']}
+may. 01, 2023 8:19:08 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[normalize-space()='Category']}
+may. 01, 2023 8:19:08 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //div[normalize-space()='Category']]}
+may. 01, 2023 8:19:08 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //div[normalize-space()='Category']]}
+may. 01, 2023 8:19:08 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //ol/li/a[contains(text(),'Tees')]}
+may. 01, 2023 8:19:08 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //ol/li/a[contains(text(),'Tees')]}
+may. 01, 2023 8:19:08 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //ol/li/a[contains(text(),'Tees')]]}
+may. 01, 2023 8:19:10 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //ol/li/a[contains(text(),'Tees')]]}
+may. 01, 2023 8:19:10 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //main[@id='maincontent']//ol[@class='products list items product-items']/li]}
+may. 01, 2023 8:19:12 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //main[@id='maincontent']//ol[@class='products list items product-items']/li]}
+may. 01, 2023 8:19:12 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: h1 span.base}
+may. 01, 2023 8:19:12 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: h1 span.base}
+may. 01, 2023 8:19:12 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[@option-label='L']}
+may. 01, 2023 8:19:12 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[@option-label='L']}
+may. 01, 2023 8:19:13 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //div[@option-label='L']]}
+may. 01, 2023 8:19:13 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //div[@option-label='L']]}
+may. 01, 2023 8:19:13 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[@attribute-code='color']/div/div}
+may. 01, 2023 8:19:13 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[@attribute-code='color']/div/div}
+may. 01, 2023 8:19:13 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //div[@attribute-code='color']/div/div]}
+may. 01, 2023 8:19:13 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //div[@attribute-code='color']/div/div]}
+may. 01, 2023 8:19:13 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.id: product-addtocart-button}
+may. 01, 2023 8:19:13 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.id: product-addtocart-button}
+may. 01, 2023 8:19:13 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> id: product-addtocart-button]}
+may. 01, 2023 8:19:13 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> id: product-addtocart-button]}
+may. 01, 2023 8:19:13 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: .message-success.success.message}
+may. 01, 2023 8:19:15 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: .message-success.success.message}
+may. 01, 2023 8:19:15 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //a[@class='action showcart']}
+may. 01, 2023 8:19:15 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //a[@class='action showcart']}
+may. 01, 2023 8:19:15 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //a[@class='action showcart']]}
+may. 01, 2023 8:19:15 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //a[@class='action showcart']]}
+may. 01, 2023 8:19:15 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: #mini-cart  li  div  div}
+may. 01, 2023 8:19:15 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: #mini-cart  li  div  div}
+may. 01, 2023 8:19:15 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[@class='product-item-pricing']//span[@class='price']}
+may. 01, 2023 8:19:15 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[@class='product-item-pricing']//span[@class='price']}
+may. 01, 2023 8:19:15 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.id: top-cart-btn-checkout}
+may. 01, 2023 8:19:15 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.id: top-cart-btn-checkout}
+may. 01, 2023 8:19:15 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> id: top-cart-btn-checkout]}
+may. 01, 2023 8:19:17 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> id: top-cart-btn-checkout]}
+may. 01, 2023 8:19:17 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[normalize-space()='Shipping Address']}
+may. 01, 2023 8:19:21 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[normalize-space()='Shipping Address']}
+may. 01, 2023 8:19:21 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.id: customer-email}
+may. 01, 2023 8:19:21 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.id: customer-email}
+may. 01, 2023 8:19:21 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.id: customer-email}
+may. 01, 2023 8:19:21 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.id: customer-email}
+may. 01, 2023 8:19:21 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //input[@name='firstname']}
+may. 01, 2023 8:19:21 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //input[@name='firstname']}
+may. 01, 2023 8:19:21 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //input[@name='lastname']}
+may. 01, 2023 8:19:21 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //input[@name='lastname']}
+may. 01, 2023 8:19:22 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[@name='shippingAddress.street.0']/div/input}
+may. 01, 2023 8:19:22 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[@name='shippingAddress.street.0']/div/input}
+may. 01, 2023 8:19:22 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //input[@name='city']}
+may. 01, 2023 8:19:22 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //input[@name='city']}
+may. 01, 2023 8:19:22 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //select[@name='region_id']}
+may. 01, 2023 8:19:22 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //select[@name='region_id']}
+may. 01, 2023 8:19:22 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //select[@name='region_id']]] -> xpath: .//option[normalize-space(.) = "Arizona"]]}
+may. 01, 2023 8:19:22 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //select[@name='region_id']]] -> xpath: .//option[normalize-space(.) = "Arizona"]]}
+may. 01, 2023 8:19:22 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //input[@name='postcode']}
+may. 01, 2023 8:19:22 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //input[@name='postcode']}
+may. 01, 2023 8:19:22 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //select[@name='country_id']}
+may. 01, 2023 8:19:22 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //select[@name='country_id']}
+may. 01, 2023 8:19:22 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //input[@name='telephone']}
+may. 01, 2023 8:19:22 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //input[@name='telephone']}
+may. 01, 2023 8:19:23 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: #checkout-shipping-method-load > table > tbody > tr:nth-child(2) > td:nth-child(1) > input}
+may. 01, 2023 8:19:23 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: #checkout-shipping-method-load > table > tbody > tr:nth-child(2) > td:nth-child(1) > input}
+may. 01, 2023 8:19:23 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> css selector: #checkout-shipping-method-load > table > tbody > tr:nth-child(2) > td:nth-child(1) > input]}
+may. 01, 2023 8:19:23 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> css selector: #checkout-shipping-method-load > table > tbody > tr:nth-child(2) > td:nth-child(1) > input]}
+may. 01, 2023 8:19:23 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: #shipping-method-buttons-container > div > button}
+may. 01, 2023 8:19:23 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: #shipping-method-buttons-container > div > button}
+may. 01, 2023 8:19:23 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> css selector: #shipping-method-buttons-container > div > button]}
+may. 01, 2023 8:19:23 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> css selector: #shipping-method-buttons-container > div > button]}
+may. 01, 2023 8:19:23 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: div[class='payment-group'] div[class='step-title']}
+may. 01, 2023 8:19:24 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: div[class='payment-group'] div[class='step-title']}
+may. 01, 2023 8:19:24 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //*[@id='checkout-payment-method-load']/div/div/div[2]/div[2]/div[4]/div/button}
+may. 01, 2023 8:19:24 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //*[@id='checkout-payment-method-load']/div/div/div[2]/div[2]/div[4]/div/button}
+may. 01, 2023 8:19:24 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //*[@id='checkout-payment-method-load']/div/div/div[2]/div[2]/div[4]/div/button}
+may. 01, 2023 8:19:24 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //*[@id='checkout-payment-method-load']/div/div/div[2]/div[2]/div[4]/div/button}
+may. 01, 2023 8:19:24 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //*[@id='checkout-payment-method-load']/div/div/div[2]/div[2]/div[4]/div/button}
+may. 01, 2023 8:19:24 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //*[@id='checkout-payment-method-load']/div/div/div[2]/div[2]/div[4]/div/button}
+may. 01, 2023 8:19:24 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //*[@id='checkout-payment-method-load']/div/div/div[2]/div[2]/div[4]/div/button}
+may. 01, 2023 8:19:24 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //*[@id='checkout-payment-method-load']/div/div/div[2]/div[2]/div[4]/div/button}
+may. 01, 2023 8:19:25 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //*[@id='checkout-payment-method-load']/div/div/div[2]/div[2]/div[4]/div/button]}
+may. 01, 2023 8:19:25 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (3f8967590a7b7d7b9b30be17a956ab58)] -> xpath: //*[@id='checkout-payment-method-load']/div/div/div[2]/div[2]/div[4]/div/button]}
+may. 01, 2023 8:19:25 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: .base}
+may. 01, 2023 8:19:25 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: .base}
+may. 01, 2023 8:19:25 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: .base}
+may. 01, 2023 8:19:25 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: .base}
+may. 01, 2023 8:19:26 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: .base}
+may. 01, 2023 8:19:26 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: .base}
+may. 01, 2023 8:19:26 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: .base}
+may. 01, 2023 8:19:26 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: .base}
+may. 01, 2023 8:19:27 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: .base}
+may. 01, 2023 8:19:28 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: .base}
+]]></system-err>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="16.889">
+    <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 42238
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 01, 2023 8:19:30 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 108
+may. 01, 2023 8:19:36 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //span[normalize-space()='Women']}
+may. 01, 2023 8:19:36 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //span[normalize-space()='Women']}
+may. 01, 2023 8:19:36 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //span[normalize-space()='Women']]}
+may. 01, 2023 8:19:39 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //span[normalize-space()='Women']]}
+may. 01, 2023 8:19:39 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //a[contains(text(),'Tops')]}
+may. 01, 2023 8:19:39 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //a[contains(text(),'Tops')]}
+may. 01, 2023 8:19:39 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //a[contains(text(),'Tops')]]}
+may. 01, 2023 8:19:40 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //a[contains(text(),'Tops')]]}
+may. 01, 2023 8:19:40 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[normalize-space()='Category']}
+may. 01, 2023 8:19:40 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[normalize-space()='Category']}
+may. 01, 2023 8:19:40 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //div[normalize-space()='Category']]}
+may. 01, 2023 8:19:40 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //div[normalize-space()='Category']]}
+may. 01, 2023 8:19:40 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //ol/li/a[contains(text(),'Jacket')]}
+may. 01, 2023 8:19:40 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //ol/li/a[contains(text(),'Jacket')]}
+may. 01, 2023 8:19:41 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //ol/li/a[contains(text(),'Jacket')]]}
+may. 01, 2023 8:19:41 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //ol/li/a[contains(text(),'Jacket')]]}
+may. 01, 2023 8:19:42 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //main[@id='maincontent']//ol[@class='products list items product-items']/li]}
+may. 01, 2023 8:19:43 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //main[@id='maincontent']//ol[@class='products list items product-items']/li]}
+may. 01, 2023 8:19:43 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: h1 span.base}
+may. 01, 2023 8:19:43 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: h1 span.base}
+may. 01, 2023 8:19:43 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[@option-label='M']}
+may. 01, 2023 8:19:43 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[@option-label='M']}
+may. 01, 2023 8:19:43 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //div[@option-label='M']]}
+may. 01, 2023 8:19:43 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //div[@option-label='M']]}
+may. 01, 2023 8:19:43 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[@attribute-code='color']/div/div}
+may. 01, 2023 8:19:43 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[@attribute-code='color']/div/div}
+may. 01, 2023 8:19:43 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //div[@attribute-code='color']/div/div]}
+may. 01, 2023 8:19:43 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //div[@attribute-code='color']/div/div]}
+may. 01, 2023 8:19:43 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.id: product-addtocart-button}
+may. 01, 2023 8:19:44 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.id: product-addtocart-button}
+may. 01, 2023 8:19:44 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> id: product-addtocart-button]}
+may. 01, 2023 8:19:44 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> id: product-addtocart-button]}
+may. 01, 2023 8:19:44 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: .message-success.success.message}
+may. 01, 2023 8:19:45 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: .message-success.success.message}
+may. 01, 2023 8:19:45 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //a[@class='action showcart']}
+may. 01, 2023 8:19:45 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //a[@class='action showcart']}
+may. 01, 2023 8:19:45 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //a[@class='action showcart']]}
+may. 01, 2023 8:19:45 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (746f535bc5596b314d36186eb6a3e561)] -> xpath: //a[@class='action showcart']]}
+may. 01, 2023 8:19:45 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: #mini-cart  li  div  div}
+may. 01, 2023 8:19:45 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: #mini-cart  li  div  div}
+may. 01, 2023 8:19:45 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[@class='product-item-pricing']//span[@class='price']}
+may. 01, 2023 8:19:45 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[@class='product-item-pricing']//span[@class='price']}
+]]></system-err>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="16.786">
+    <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 7327
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 01, 2023 8:19:47 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 108
+may. 01, 2023 8:19:53 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //span[normalize-space()='Men']}
+may. 01, 2023 8:19:53 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //span[normalize-space()='Men']}
+may. 01, 2023 8:19:53 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //span[normalize-space()='Men']]}
+may. 01, 2023 8:19:56 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //span[normalize-space()='Men']]}
+may. 01, 2023 8:19:56 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //a[contains(text(),'Tops')]}
+may. 01, 2023 8:19:56 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //a[contains(text(),'Tops')]}
+may. 01, 2023 8:19:56 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //a[contains(text(),'Tops')]]}
+may. 01, 2023 8:19:56 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //a[contains(text(),'Tops')]]}
+may. 01, 2023 8:19:56 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[normalize-space()='Category']}
+may. 01, 2023 8:19:57 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[normalize-space()='Category']}
+may. 01, 2023 8:19:57 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //div[normalize-space()='Category']]}
+may. 01, 2023 8:19:57 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //div[normalize-space()='Category']]}
+may. 01, 2023 8:19:57 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //ol/li/a[contains(text(),'Tank')]}
+may. 01, 2023 8:19:57 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //ol/li/a[contains(text(),'Tank')]}
+may. 01, 2023 8:19:57 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //ol/li/a[contains(text(),'Tank')]]}
+may. 01, 2023 8:19:58 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //ol/li/a[contains(text(),'Tank')]]}
+may. 01, 2023 8:19:58 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //main[@id='maincontent']//ol[@class='products list items product-items']/li]}
+may. 01, 2023 8:19:59 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //main[@id='maincontent']//ol[@class='products list items product-items']/li]}
+may. 01, 2023 8:19:59 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: h1 span.base}
+may. 01, 2023 8:19:59 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: h1 span.base}
+may. 01, 2023 8:19:59 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[@option-label='S']}
+may. 01, 2023 8:19:59 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[@option-label='S']}
+may. 01, 2023 8:19:59 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //div[@option-label='S']]}
+may. 01, 2023 8:19:59 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //div[@option-label='S']]}
+may. 01, 2023 8:19:59 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[@attribute-code='color']/div/div}
+may. 01, 2023 8:20:00 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[@attribute-code='color']/div/div}
+may. 01, 2023 8:20:00 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //div[@attribute-code='color']/div/div]}
+may. 01, 2023 8:20:00 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //div[@attribute-code='color']/div/div]}
+may. 01, 2023 8:20:00 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.id: product-addtocart-button}
+may. 01, 2023 8:20:00 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.id: product-addtocart-button}
+may. 01, 2023 8:20:00 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> id: product-addtocart-button]}
+may. 01, 2023 8:20:00 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> id: product-addtocart-button]}
+may. 01, 2023 8:20:00 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: .message-success.success.message}
+may. 01, 2023 8:20:01 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: .message-success.success.message}
+may. 01, 2023 8:20:01 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //a[@class='action showcart']}
+may. 01, 2023 8:20:01 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //a[@class='action showcart']}
+may. 01, 2023 8:20:01 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //a[@class='action showcart']]}
+may. 01, 2023 8:20:02 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (43cdb0c15a8bd68161e9392a482fa628)] -> xpath: //a[@class='action showcart']]}
+may. 01, 2023 8:20:02 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: #mini-cart  li  div  div}
+may. 01, 2023 8:20:02 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: #mini-cart  li  div  div}
+may. 01, 2023 8:20:02 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[@class='product-item-pricing']//span[@class='price']}
+may. 01, 2023 8:20:02 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[@class='product-item-pricing']//span[@class='price']}
+]]></system-err>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="17.723">
+    <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 35919
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 01, 2023 8:20:05 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 108
+may. 01, 2023 8:20:11 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //span[normalize-space()='Women']}
+may. 01, 2023 8:20:12 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //span[normalize-space()='Women']}
+may. 01, 2023 8:20:12 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //span[normalize-space()='Women']]}
+may. 01, 2023 8:20:12 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //span[normalize-space()='Women']]}
+may. 01, 2023 8:20:12 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //a[contains(text(),'Bottom')]}
+may. 01, 2023 8:20:12 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //a[contains(text(),'Bottom')]}
+may. 01, 2023 8:20:13 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //a[contains(text(),'Bottom')]]}
+may. 01, 2023 8:20:13 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //a[contains(text(),'Bottom')]]}
+may. 01, 2023 8:20:13 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[normalize-space()='Category']}
+may. 01, 2023 8:20:14 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[normalize-space()='Category']}
+may. 01, 2023 8:20:14 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //div[normalize-space()='Category']]}
+may. 01, 2023 8:20:14 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //div[normalize-space()='Category']]}
+may. 01, 2023 8:20:14 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //ol/li/a[contains(text(),'Shorts')]}
+may. 01, 2023 8:20:14 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //ol/li/a[contains(text(),'Shorts')]}
+may. 01, 2023 8:20:14 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //ol/li/a[contains(text(),'Shorts')]]}
+may. 01, 2023 8:20:15 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //ol/li/a[contains(text(),'Shorts')]]}
+may. 01, 2023 8:20:16 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //main[@id='maincontent']//ol[@class='products list items product-items']/li]}
+may. 01, 2023 8:20:17 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //main[@id='maincontent']//ol[@class='products list items product-items']/li]}
+may. 01, 2023 8:20:17 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: h1 span.base}
+may. 01, 2023 8:20:17 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: h1 span.base}
+may. 01, 2023 8:20:17 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[@option-label='28']}
+may. 01, 2023 8:20:17 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[@option-label='28']}
+may. 01, 2023 8:20:17 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //div[@option-label='28']]}
+may. 01, 2023 8:20:18 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //div[@option-label='28']]}
+may. 01, 2023 8:20:18 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[@attribute-code='color']/div/div}
+may. 01, 2023 8:20:18 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[@attribute-code='color']/div/div}
+may. 01, 2023 8:20:18 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //div[@attribute-code='color']/div/div]}
+may. 01, 2023 8:20:18 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //div[@attribute-code='color']/div/div]}
+may. 01, 2023 8:20:18 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.id: product-addtocart-button}
+may. 01, 2023 8:20:18 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.id: product-addtocart-button}
+may. 01, 2023 8:20:18 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> id: product-addtocart-button]}
+may. 01, 2023 8:20:18 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> id: product-addtocart-button]}
+may. 01, 2023 8:20:18 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: .message-success.success.message}
+may. 01, 2023 8:20:19 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: .message-success.success.message}
+may. 01, 2023 8:20:19 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //a[@class='action showcart']}
+may. 01, 2023 8:20:19 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //a[@class='action showcart']}
+may. 01, 2023 8:20:19 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //a[@class='action showcart']]}
+may. 01, 2023 8:20:19 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (b6e223a3c1ef43b027bc1de5927b935d)] -> xpath: //a[@class='action showcart']]}
+may. 01, 2023 8:20:19 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: #mini-cart  li  div  div}
+may. 01, 2023 8:20:20 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: #mini-cart  li  div  div}
+may. 01, 2023 8:20:20 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[@class='product-item-pricing']//span[@class='price']}
+may. 01, 2023 8:20:20 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[@class='product-item-pricing']//span[@class='price']}
+]]></system-err>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="15.826">
+    <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 29249
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 01, 2023 8:20:22 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 108
+may. 01, 2023 8:20:27 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //span[normalize-space()='Gear']}
+may. 01, 2023 8:20:27 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //span[normalize-space()='Gear']}
+may. 01, 2023 8:20:27 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (e933a5b2b30faa01f9354233a7e6075b)] -> xpath: //span[normalize-space()='Gear']]}
+may. 01, 2023 8:20:28 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (e933a5b2b30faa01f9354233a7e6075b)] -> xpath: //span[normalize-space()='Gear']]}
+may. 01, 2023 8:20:28 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //a[contains(text(),'Fitness Equipment')]}
+may. 01, 2023 8:20:28 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //a[contains(text(),'Fitness Equipment')]}
+may. 01, 2023 8:20:29 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (e933a5b2b30faa01f9354233a7e6075b)] -> xpath: //a[contains(text(),'Fitness Equipment')]]}
+may. 01, 2023 8:20:31 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (e933a5b2b30faa01f9354233a7e6075b)] -> xpath: //a[contains(text(),'Fitness Equipment')]]}
+may. 01, 2023 8:20:31 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[normalize-space()='Category']}
+may. 01, 2023 8:20:31 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[normalize-space()='Category']}
+may. 01, 2023 8:20:31 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (e933a5b2b30faa01f9354233a7e6075b)] -> xpath: //div[normalize-space()='Category']]}
+may. 01, 2023 8:20:31 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (e933a5b2b30faa01f9354233a7e6075b)] -> xpath: //div[normalize-space()='Category']]}
+may. 01, 2023 8:20:31 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //ol/li/a[contains(text(),'Cardio')]}
+may. 01, 2023 8:20:31 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //ol/li/a[contains(text(),'Cardio')]}
+may. 01, 2023 8:20:31 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (e933a5b2b30faa01f9354233a7e6075b)] -> xpath: //ol/li/a[contains(text(),'Cardio')]]}
+may. 01, 2023 8:20:32 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (e933a5b2b30faa01f9354233a7e6075b)] -> xpath: //ol/li/a[contains(text(),'Cardio')]]}
+may. 01, 2023 8:20:32 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (e933a5b2b30faa01f9354233a7e6075b)] -> xpath: //main[@id='maincontent']//ol[@class='products list items product-items']/li]}
+may. 01, 2023 8:20:33 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (e933a5b2b30faa01f9354233a7e6075b)] -> xpath: //main[@id='maincontent']//ol[@class='products list items product-items']/li]}
+may. 01, 2023 8:20:33 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: h1 span.base}
+may. 01, 2023 8:20:33 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: h1 span.base}
+may. 01, 2023 8:20:33 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.id: product-addtocart-button}
+may. 01, 2023 8:20:33 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.id: product-addtocart-button}
+may. 01, 2023 8:20:33 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.id: product-addtocart-button}
+may. 01, 2023 8:20:33 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.id: product-addtocart-button}
+may. 01, 2023 8:20:33 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.id: product-addtocart-button}
+may. 01, 2023 8:20:33 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.id: product-addtocart-button}
+may. 01, 2023 8:20:33 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.id: product-addtocart-button}
+may. 01, 2023 8:20:33 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.id: product-addtocart-button}
+may. 01, 2023 8:20:33 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.id: product-addtocart-button}
+may. 01, 2023 8:20:34 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.id: product-addtocart-button}
+may. 01, 2023 8:20:34 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (e933a5b2b30faa01f9354233a7e6075b)] -> id: product-addtocart-button]}
+may. 01, 2023 8:20:34 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (e933a5b2b30faa01f9354233a7e6075b)] -> id: product-addtocart-button]}
+may. 01, 2023 8:20:34 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: .message-success.success.message}
+may. 01, 2023 8:20:35 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: .message-success.success.message}
+may. 01, 2023 8:20:35 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //a[@class='action showcart']}
+may. 01, 2023 8:20:35 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //a[@class='action showcart']}
+may. 01, 2023 8:20:35 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeClick
+INFO: Clicking element {[[ChromeDriver: chrome on WINDOWS (e933a5b2b30faa01f9354233a7e6075b)] -> xpath: //a[@class='action showcart']]}
+may. 01, 2023 8:20:35 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterClick
+INFO: Clicked element {[[ChromeDriver: chrome on WINDOWS (e933a5b2b30faa01f9354233a7e6075b)] -> xpath: //a[@class='action showcart']]}
+may. 01, 2023 8:20:35 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.cssSelector: #mini-cart  li  div  div}
+may. 01, 2023 8:20:35 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.cssSelector: #mini-cart  li  div  div}
+may. 01, 2023 8:20:35 P. M. io.testsmith.support.listeners.WebDriverLoggingListener beforeFindElement
+INFO: Try to locate element using {By.xpath: //div[@class='product-item-pricing']//span[@class='price']}
+may. 01, 2023 8:20:35 P. M. io.testsmith.support.listeners.WebDriverLoggingListener afterFindElement
+INFO: Located element using {By.xpath: //div[@class='product-item-pricing']//span[@class='price']}
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,17 @@
+magento\utils\BrowserUtil.class
+magento\properties\Environment.class
+magento\steps\MagentoSteps.class
+magento\RunCucumberTest.class
+magento\pages\MenuPage.class
+magento\pages\ProductCatalogPage.class
+magento\properties\EnvironmentProperties.class
+magento\utils\BrowserUtil$1.class
+magento\pages\CheckOutPage.class
+magento\utils\Browser.class
+magento\pages\HomePage.class
+magento\pages\ShoppingCarPage.class
+magento\pages\BasePage.class
+magento\TestContext.class
+magento\utils\PicoDependencyInjector.class
+magento\pages\ItemInfoPage.class
+magento\Hooks.class
